@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Marks"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+
+            <TextView
+                android:padding="3dip"
+                android:text="KAD 104"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="50"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:ignore="RtlCompat" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Cloud"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="35"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:ignore="RtlCompat" />
+        </TableRow>
+    </TableLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:text="Marks"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="25dp"-->
+    <!--        android:textStyle="bold" />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="KAD 101"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="25dp"-->
+    <!--       />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="OOP"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="25dp"-->
+    <!--        />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
